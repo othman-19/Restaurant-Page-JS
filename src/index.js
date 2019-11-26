@@ -4,8 +4,6 @@ import loadHome from './home';
 import loadMenu from './menu';
 import loadContact from './contact';
 import './style.css';
-import myImage from './pizza.jpg';
-
 
 document.body.appendChild(headerload());
 document.body.appendChild(loadHome());
