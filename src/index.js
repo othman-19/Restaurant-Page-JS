@@ -1,3 +1,15 @@
-import pageLoad from './page_load';
+import headerload from './header';
+import loadFooter from './footer';
+import loadHome from './home';
+import loadMenu from './menu';
+import loadContact from './contact';
 
-document.body.appendChild(pageLoad());
+document.body.appendChild(headerload());
+document.body.appendChild(loadHome());
+
+const navbar = document.getElementById('navBar');
+const linksList = navbar.childNodes;
+linksList[0].addEventListener('click', loadHome, false);
+linksList[1].addEventListener('click', loadMenu, false);
+linksList[2].addEventListener('click', loadContact, false);
+document.body.appendChild(loadFooter());
