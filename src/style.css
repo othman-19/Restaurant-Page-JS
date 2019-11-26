@@ -43,11 +43,12 @@ a:hover {
 }
 
 #content{
-  padding: 5% 25%;
+  padding: 2% 25%;
+  background-color:rgba(151, 41, 41, 0.26);
 }
 ul li{
   font-size: 1.5em;
-  padding: 0 0 7px 0;
+  padding: 0 0 6px 0;
 }
 #footer{
   font-size: 0.8em;
