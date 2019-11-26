@@ -18,10 +18,7 @@ function loadHeader() {
   linksList[1].innerHTML = '  MENU  |';
   linksList[2].innerHTML = '  CONTACT';
   header.appendChild(navbar);
-  const bigTitle = document.createElement('H2');
-  bigTitle.setAttribute('id', 'bigTitle');
-  bigTitle.innerHTML = 'Devpizza';
-  headerTemp.appendChild(header).appendChild(bigTitle);
+  headerTemp.appendChild(header);
   return headerTemp;
 }
 
